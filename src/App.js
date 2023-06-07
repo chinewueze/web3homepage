@@ -13,7 +13,7 @@ export default function App() {
   };
 
   return (
-    <div className={`h-full ${isDarkMode ? 'bg-black' : 'bg-gray-100'} `}>
+    <div className={`h-full ${isDarkMode ? 'bg-black' : 'bg-gray-100'}   `}>
       <NavigationMenu isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
       <Main isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />

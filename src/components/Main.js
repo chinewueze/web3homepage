@@ -4,7 +4,7 @@ export default function Main({ isDarkMode}) {
         <main className=" flex  basis-0  mx-auto lg:mt-9 lg:flex-row sm:flex-col">
             <section className="w-3/5 shrink-0 mt-7" >
                 <img src="./assets/Images/image-web-3-desktop.jpg" className=" lg:flex sm:hidden  lg:w-auto lg:mx-6"/>  
-                <img src="./assets/Images/image-web-3-mobile.jpg" className="  lg:hidden sm:block sm:max-w-md sm:mx-2 " />  
+                <img src="./assets/Images/image-web-3-mobile.jpg" className="  lg:hidden sm:block sm:max-w-xs sm:mx-5 " />  
                 <div className="flex basis-0 shrink-0 xl:flex-row lg:flex-row sm:flex-col shrink-0 lg:mx-8 sm:ml-4">
                     <h1 className={`${isDarkMode ? 'text-white' : 'text-primary-100'} text-justify text-4xl font-bold shrink-0 lg:flex sm:hidden`}>
                         The Bright <br/> Future of <br/> Web 3.0?
